@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kripa's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ec93ef42f2.js" crossorigin="anonymous"></script>
+</head>
+</body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="https://cdn.discordapp.com/attachments/934632405422194718/1119012665549918288/new_logo_2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Student</p>
+            <h1>Hi, I'm <span>Kripa</span><br> From United Kingdom.</h1>
+        </div>
+    </div>
+</div>
+<!-- --------------------------------------about---------------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://cdn.discordapp.com/attachments/934632405422194718/1119012666548174918/img_1.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Looking for  I am a student studying A-level; computer science, physics and maths. I chose my career path as AI specialist.
+                    I am a very creative person and I love to design and code. I have interest in how to run business and understanding stradegies.
+                    Photography is one of my passions, allows me to capture stunning landscapes and share them with others.
+                    My creativity extends to painting, where you enjoy experimenting with various styles and mediums. 
+                    I have an insatiable thirst for knowledge and enjoy reading, learning, and exploring a wide range of subjects. 
+                    I'm genuine kindness and compassion makes me a trusted friend and advisor to others. Overall, I'm embody a vibrant personality 
+                    that brings positivity and joy to those around me.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"><strong>Skills</strong></p>
+                    <p class="tab-links" onclick="opentab('education')"><strong>Education</strong></p>
+                    <p class="tab-links" onclick="opentab('languages')"><strong>Languages</strong></p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span><strong>Designing</strong></span><br>Designing products, characters</li>
+                        <li><span><strong>3D modelling</strong></span><br>Make a model: character, trees, places, etc...</li>
+                        <li><span><strong>Coding</strong></span><br>Python, HTML & CSS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span><strong>2022 - Current, CAVC, Cardiff</strong></span><br>A-level; Maths, Computer Science, Physics and Welsh Bacc</li>
+                        <li><span><strong>2020 - 2022, St Julian's School, Newport</strong></span><br>GCSE - 
+                            Product Design, ICT, Engineering, English, Math, Science, Welsh Bacc and Welsh.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="languages">
+                    <ul>
+                        <li><span><strong>Punjabi</strong></span><br>Native, fluent</li>
+                        <li><span><strong>Hindi</strong></span><br>Second language, fluent</li>
+                        <li><span><strong>English</strong></span><br>Third language, fluent</li>
+                        <li><span><strong>Italian</strong></span><br>Fourth language, medium</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------Projects-------------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <h2>Portfolio website</h2>
+                <p>There will be all the information about my projects and html & css skills are shown.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-feather"></i>
+                <h2>Therapy App</h2>
+                <p>It is a platform for people so they can communicate and relate their problems.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Sentiment analysis system</h2>
+                <p>Analysis the data</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------------portfolio--------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://cdn.discordapp.com/attachments/934632405422194718/1119012665893863434/work_1.jpg" alt="">
+                <div class="layer">
+                    <h3><strong>Social Media App</strong></h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://cdn.discordapp.com/attachments/934632405422194718/1119012666111971328/work_2.jpg" alt="">
+                <div class="layer">
+                    <h3><strong>Therapy App</strong></h3>
+                    <p>The app connects you to the people who have been in the same situation as you. 
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://media.discordapp.net/attachments/934632405422194718/1119012666325864570/work_3.jpg?width=703&height=413" alt="">
+                <div class="layer">
+                    <h3><strong>Sentiment Analysis System</strong></h3>
+                    <p>The website connects you to the money world.
+                         It will help you check the market.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------------------------------contact------------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> <a href="mailto:kripa000pal@gmail.com" class="email-link"> kripa000pal@gmail.com</a></p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" pattern="[A-Za-z ]+" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kripa.<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz03Z7mdIlYGvfVAGMBkGmn8NyTLHT8OE4l4avs9w5j5IyqJOryFKE9fmP7bpt1jh7cjA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
